@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Martian Band - Grid Layout</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="menu">
+        <div class="menu-container">
+            <div class="menu-logo">
+                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#historia">História</a></li>
+                    <li><a href="#integrantes">Integrantes</a></li>
+                    <li><a href="#discos">Discos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="intro">
+        <h1>The Martian Band</h1>
+    </main>
+
+    <section class="historia" id="historia">
+        <h2>História</h2>
+        <p>A The Martian Band é uma banda de rock alternativo, formada por Júlia, Marcos, Vladmir e Enzo. O grupo nasceu
+            em 2014, na cidade de São Paulo. Suas maiores inspirações são David Bowie, Tame Impala e My Bloody
+            Valentine. Atualmente tocam em festivais de música e eventos fechados particulares.</p>
+    </section>
+
+    <section class="integrantes" id="integrantes">
+        <h2>Integrantes</h2>
+        <div class="integrantes-container">
+            <div class="integrante-item">
+                <img src="img/voca.jpg" alt="Vocalista">
+                <h3>Júlia</h3>
+                <p>Garota nordestina de 28 anos que já nasceu com A VOZ. Idealizadora da banda e apaixonada por
+                    informações do espaço, por isso a pira com Marte.</p>
+            </div>
+            <div class="integrante-item">
+                <img src="img/guitar.jpg" alt="Guitarrista">
+                <h3>Marcos</h3>
+                <p>O guitarrista da banda também é o mais maluco. A maioria das composições autorais do grupo é de sua
+                    autoria.</p>
+            </div>
+            <div class="integrante-item">
+                <img src="img/baix.jpg" alt="Baixista">
+                <h3>Vladmir</h3>
+                <p>O mais reservado da banda é o Baixista. Essa não gosta muito de falar, por isso se expressa melhor
+                    com os dados na hora de tocar.</p>
+            </div>
+            <div class="integrante-item">
+                <img src="img/bater.jpg" alt="Baterista">
+                <h3>Enzo</h3>
+                <p>Pelo nome já se imagina que é o mais novo né? Jovem talentosíssimo, parceiro nas composições, e
+                    arrisca uns vocais de vez em quando.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="discos" id="discos">
+        <h2>Discos</h2>
+        <div class="discos-container">
+            <div class="capa">
+                <img src="img/disco1.png" alt="Disco1">
+            </div>
+            <div class="musics">
+                <h3>On the Subject of Moving Forward, 2015</h3>
+                <ol>
+                    <li>Call</li>
+                    <li>Waiting</li>
+                    <li>Last Kiss</li>
+                    <li>Are You Alone?</li>
+                    <li>Liar</li>
+                </ol>
+            </div>
+            <div class="capa">
+                <img src="img/disco2.png" alt="Disco2">
+            </div>
+            <div class="musics">
+                <h3>Unbroken and Unplugged, 2017</h3>
+                <ol>
+                    <li>Stand Up</li>
+                    <li>Brand New Day</li>
+                    <li>Forever</li>
+                    <li>Unbreakable</li>
+                    <li>You Decide</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contato" id="contato">
+            <h2>Contato</h2>
+            <div class="contato-container">
+                <form class="form" action="">
+                    <label for="name">Nome</label>
+                    <input type="text">
+                    <label for="email">Email</label>
+                    <input type="text">
+                    <label for="telefone">Telefone</label>
+                    <input type="text">
+                    <label for="mensagem">Mensagem</label>
+                    <input class="msg" type="text">
+                    <button>Enviar</button>
+                </form>
+                <div class="outros">
+                    <h3>Outros Meios</h3>
+                    <ul class="outros2">
+                        <li>11 98787-9696</li>
+                        <li>themarchianband@tmb.com</li>
+                    </ul>
+                    <h3>Redes sociais</h3>
+                    <ul class="redes">
+                        <li><a href="#"><img src="img/face.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/insta.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footertext">
+                <p>Projeto criado para fins de estudo. CSS Flexbox <a href="https://www.origamid.com/">Origamid.com</a>
+                </p>
+            </div>
+            <div class="footerimg">
+                <img src="img/logo.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
